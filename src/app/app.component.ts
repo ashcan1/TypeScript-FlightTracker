@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RootObject } from './Model/Flight';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'flightTracker';
+  data!: RootObject;
 }
