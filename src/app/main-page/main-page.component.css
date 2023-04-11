@@ -1,6 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+td.mat-cell {
+  font-weight: bold;
+}
+
 table {
   border-collapse: collapse;
-
+  width: 100%;
 }
 
 th, td {

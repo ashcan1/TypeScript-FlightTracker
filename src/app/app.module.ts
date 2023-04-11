@@ -52,12 +52,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { FlightServiceService } from './main-page/flight-service.service';
 import { error } from 'console';
 import { RootObject } from './Model/Flight';
+import { AngularElementComponent } from './angular-element/angular-element.component';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainPageComponent
+    MainPageComponent,
+    AngularElementComponent,
+
   ],
   imports: [
     BrowserModule,
